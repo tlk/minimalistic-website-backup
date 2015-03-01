@@ -13,8 +13,8 @@ These scripts might be useful in case you
 	* file access thru FTP (and nothing else)
 	* remote mysql access, and
 * you have a VPS where you don't mind storing the backup
-* you are ok with manual restore should that be neccessary, because uhm, this a
-very  minimalistic backup setup afterall.
+* you are ok with manual restore should that be necessary, because uhm, this a
+very  minimalistic backup setup after all.
 
 
 
@@ -75,7 +75,7 @@ Edit these config files in your favorite editor. You might also want to adjust .
 
 ## How do I restore?
 
-You do that manually. You can find the latest backup in the "backup" directory
+Well, you do that manually. You can find the latest backup in the "backup" directory
 which contains two directories: db-dumps and files. The "db-dumps" directory
 holds .sql files for your database(s). The "files" directory holds a copy of
 all files from the website.
