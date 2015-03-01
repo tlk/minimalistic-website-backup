@@ -1,0 +1,4 @@
+[client]
+host = mydb17.example.com
+user = def
+password = XXXXXXXXXXXXXXXXXXXX

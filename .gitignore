@@ -1,0 +1,9 @@
+backup
+.bash*
+.gitconfig.sample
+.lesshst
+.local
+.profile
+.selected_editor
+.vim
+.viminfo
