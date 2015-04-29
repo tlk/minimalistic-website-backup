@@ -63,7 +63,7 @@ Edit these config files in your favorite editor. You might also want to adjust .
 	./bin/db-dumps.sh
 	
 	
-## Perform automatic backup
+## Enable automatic backup
 
 	# let cron perform future backups for you
 	crontab config/crontab
