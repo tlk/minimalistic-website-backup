@@ -13,8 +13,7 @@ These scripts might be useful in case you
 	* file access thru FTP (and nothing else)
 	* remote mysql access, and
 * you have a VPS where you don't mind storing the backup
-* you are ok with manual restore should that be necessary, because uhm, this a
-very  minimalistic backup setup after all.
+* you are ok with manual restore.
 
 
 
@@ -29,7 +28,7 @@ If there is not already installed an MTA for email delivery, go ahead and grab
 postfix too.
 
 
-## Install and configuration
+## How to install it
 
 Create a dedicated user:
 
@@ -73,14 +72,13 @@ Edit these config files in your favorite editor. You might also want to adjust .
 	echo YOUR_LOGIN_CHANGE_THIS > $HOME/.forward
 
 
-## How do I restore?
+## How to restore from the backup
 
-Well, you do that manually. You can find the latest backup in the "backup" directory
-which contains two directories: db-dumps and files. The "db-dumps" directory
-holds .sql files for your database(s). The "files" directory holds a copy of
+You can find the latest backup in the ```backup``` directory
+which contains two directories: db-dumps and files. The ```db-dumps``` directory
+holds .sql files for your database(s) and the ```files``` directory holds a copy of
 all files from the website.
 
-The "backup" directory is a git repository, so you can use standard git
+Remember that the ```backup``` directory is a git repository, so you can use standard git
 functions to fetch older database or file versions from the backup in case you
 need that.
-
