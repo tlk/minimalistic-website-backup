@@ -1,6 +1,6 @@
 backup
 .bash*
-.gitconfig.sample
+.forward
 .lesshst
 .local
 .profile
